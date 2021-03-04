@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functionaltest">
+  <test thread-count="5" name="logintest">
+  <parameter name="nameparam" value="sushil"></parameter>
+  
+
+    <classes>
+      <class name="Test.ParametersEx"/>
+ 
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
